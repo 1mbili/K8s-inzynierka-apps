@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cdn-app
+  namespace: inzynierka
+  labels:
+    app: cdn-app
+spec:
+  containers:
+    - name: cdn-app
+      image: michaldocker123/cdn:0.1
+      ports:
+        - containerPort: 80
