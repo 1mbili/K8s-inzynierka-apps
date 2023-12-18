@@ -4,4 +4,3 @@ kind: Kustomization
 resources:
   - cdn-pod.yaml
   - svc.yaml
-  - pod-monitor.yaml
