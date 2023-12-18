@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: cdn-app
-        image: michaldocker123/cdn:0.1
+        image: michaldocker123/cdn:0.2
         ports:
         - containerPort: 80
